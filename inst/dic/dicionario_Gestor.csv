@@ -1,0 +1,203 @@
+nome;descricao;categoria
+NU_ANO_CENSO;Ano do Censo;NA
+ID_GESTOR;Código do Gestor Escolar;NA
+NU_DIA;Data de nascimento - dia;NA
+NU_MES;Data de nascimento - mês;NA
+NU_ANO;Data de nascimento - ano;NA
+NU_IDADE_REFERENCIA;Idade do Gestor Escolar no mês de referência do Censo Escolar (31 de maio);NA
+NU_IDADE;Idade calculada pelo ano de nascimento do Gestor Escolar;NA
+TP_SEXO;Sexo;"1 - Masculino
+2 - Feminino"
+TP_COR_RACA;Cor/raça;"0 - Não declarada
+1 - Branca
+2 - Preta
+3 - Parda
+4 - Amarela
+5 - Indígena"
+TP_NACIONALIDADE;Nacionalidade;"1 - Brasileira
+2 - Brasileira - nascido no exterior ou naturalizado
+3 - Estrangeira"
+CO_PAIS_ORIGEM;Código País da nacionalidade;NA
+CO_UF_NASC;Código da UF de nascimento;NA
+CO_MUNICIPIO_NASC;Código do Município de nascimento;NA
+IN_NECESSIDADE_ESPECIAL;Gestor Escolar com deficiência transtorno do espectro autista ou altas habilidades/superdotação;"0 - Não
+1 - Sim"
+IN_BAIXA_VISAO;Gestor Escolar com deficiência transtorno do espectro autista ou altas habilidades/superdotação - Baixa Visão;"0 - Não
+1 - Sim
+ - Não aplicável para Gestor sem deficiência"
+IN_CEGUEIRA;Gestor Escolar com deficiência transtorno do espectro autista ou altas habilidades/superdotação - Cegueira;"0 - Não
+1 - Sim
+ - Não aplicável para Gestor sem deficiência"
+IN_DEF_AUDITIVA;Gestor Escolar com deficiência transtorno do espectro autista ou altas habilidades/superdotação - Deficiência Auditiva;"0 - Não
+1 - Sim
+ - Não aplicável para Gestor sem deficiência"
+IN_DEF_FISICA;Gestor Escolar com deficiência - Deficiência Física;"0 - Não
+1 - Sim
+ - Não aplicável para Gestor sem deficiência"
+IN_DEF_INTELECTUAL;Gestor Escolar com deficiência transtorno do espectro autista ou altas habilidades/superdotação - Deficiência Intelectual;"0 - Não
+1 - Sim
+ - Não aplicável para Gestor sem deficiência"
+IN_SURDEZ;Gestor Escolar com deficiência - Surdez;"0 - Não
+1 - Sim
+ - Não aplicável para Gestor sem deficiência"
+IN_SURDOCEGUEIRA;Gestor Escolar com deficiência transtorno do espectro autista ou altas habilidades/superdotação - Surdocegueira;"0 - Não
+1 - Sim
+ - Não aplicável para Gestor sem deficiência"
+IN_DEF_MULTIPLA;Gestor Escolar com deficiência transtorno do espectro autista ou altas habilidades/superdotação - Deficiência Múltipla;"0 - Não
+1 - Sim
+ - Não aplicável para Gestor sem deficiência"
+IN_AUTISMO;Gestor Escolar com deficiência transtorno do espectro autista ou altas habilidades/superdotação - Transtorno do espectro autista;"0 - Não
+1 - Sim
+ - Não aplicável para Gestor sem deficiência"
+IN_SUPERDOTACAO;Gestor Escolar com deficiência transtorno do espectro autista ou altas habilidades/superdotação - Altas Habilidades/Superdotação;"0 - Não
+1 - Sim
+ - Não aplicável para Gestor sem deficiência"
+TP_ESCOLARIDADE;Maior nível de Escolaridade concluída;"1 - Não concluiu o ensino fundamental (Fundamental incompleto)
+2 - Fundamental completo
+3 - Ensino Médio completo
+4 - Superior completo"
+TP_ENSINO_MEDIO;Tipo de ensino médio cursado;"1 - Formação Geral
+2 - Modalidade Normal (Magistério)
+3 - Curso Técnico
+4  - Magistério Indígena Modalidade Normal
+- Não aplicável para gestores com TP_ESCOLARIDADE igual a 1 ou 2"
+CO_AREA_CURSO_1;Código da Área do curso superior 1;Ver Anexo 5 - Cursos de Formação Superior
+CO_CURSO_1;Código do curso 1 da escolaridade superior;Ver Anexo 5 - Cursos de Formação Superior
+IN_LICENCIATURA_1;Possui Licenciatura no curso 1;"0 - Não
+1 - Sim"
+NU_ANO_CONCLUSAO_1;Ano de conclusão do curso superior 1;NA
+TP_TIPO_IES_1;Tipo de instituição do curso superior 1;"1 - Pública
+2 - Privada"
+CO_IES_1;Código da Instituição do curso 1;Ver Anexo 6 - Tabela de IES
+CO_AREA_CURSO_2;Código da Área do curso superior 2;Ver Anexo 5 - Cursos de Formação Superior
+CO_CURSO_2;Código do curso 2 da escolaridade superior;Ver Anexo 5 - Cursos de Formação Superior
+IN_LICENCIATURA_2;Possui Licenciatura no curso superior 2;"0 - Não
+1 - Sim"
+NU_ANO_CONCLUSAO_2;Ano de conclusão do curso superior 2;NA
+TP_TIPO_IES_2;Tipo de instituição do curso superior 2;"1 - Pública
+2 - Privada"
+CO_IES_2;Código da Instituição do curso superior 2;Ver Anexo 6 - Tabela de IES
+IN_ESPECIALIZACAO;Pós-Graduação concluída - Especialização;"0 - Não
+1 - Sim
+    - Não aplicável para gestores sem curso superior concluído"
+IN_MESTRADO;Pós-Graduação concluída - Mestrado;"0 - Não
+1 - Sim
+    - Não aplicável para gestores sem curso superior concluído"
+IN_DOUTORADO;Pós-Graduação concluída - Doutorado;"0 - Não
+1 - Sim
+    - Não aplicável para gestores sem curso superior concluído"
+IN_POS_NENHUM;Pós-Graduação concluída - Não tem pós-graduação concluída;"0 - Não
+1 - Sim
+    - Não aplicável para gestores sem curso superior concluído"
+IN_ESPECIFICO_CRECHE;Outros cursos - Formação Continuada com no mínimo 80 horas - Específico para creche (0 a 3 anos);"0 - Não
+1 - Sim"
+IN_ESPECIFICO_PRE_ESCOLA;Outros cursos - Formação Continuada com no mínimo 80 horas - Específico para pré-escola (4 e 5 anos);"0 - Não
+1 - Sim"
+IN_ESPECIFICO_ANOS_INICIAIS;Outros cursos - Formação Continuada com no mínimo 80 horas - Específico para anos iniciais do ensino fundamental;"0 - Não
+1 - Sim"
+IN_ESPECIFICO_ANOS_FINAIS;Outros cursos - Formação Continuada com no mínimo 80 horas - Específico para anos finais do ensino fundamental;"0 - Não
+1 - Sim"
+IN_ESPECIFICO_ENS_MEDIO;Outros cursos - Formação Continuada com no mínimo 80 horas - Específico para ensino médio;"0 - Não
+1 - Sim"
+IN_ESPECIFICO_EJA;Outros cursos - Formação Continuada com no mínimo 80 horas - Específico para educação de jovens e adultos;"0 - Não
+1 - Sim"
+IN_ESPECIFICO_ED_ESPECIAL;Outros cursos - Formação Continuada com no mínimo 80 horas - Específico para educação especial;"0 - Não
+1 - Sim"
+IN_ESPECIFICO_ED_INDIGENA;Outros cursos - Formação Continuada com no mínimo 80 horas - Específico para educação indígena;"0 - Não
+1 - Sim"
+IN_ESPECIFICO_CAMPO;Outros cursos - Formação Continuada com no mínimo 80 horas - Educação do Campo;"0 - Não
+1 - Sim"
+IN_ESPECIFICO_AMBIENTAL;Outros cursos - Formação Continuada com no mínimo 80 horas - Educação Ambiental;"0 - Não
+1 - Sim"
+IN_ESPECIFICO_DIR_HUMANOS;Outros cursos - Formação Continuada com no mínimo 80 horas - Educação em direitos humanos;"0 - Não
+1 - Sim"
+IN_ESPECIFICO_DIV_SEXUAL;Outros cursos - Formação Continuada com no mínimo 80 horas - Gênero e Diversidade Sexual;"0 - Não
+1 - Sim"
+IN_ESPECIFICO_DIR_ADOLESC;Outros cursos - Formação Continuada com no mínimo 80 horas - Direitos de criança e adolescente;"0 - Não
+1 - Sim"
+IN_ESPECIFICO_AFRO;Outros cursos - Formação Continuada com no mínimo 80 horas - Educação para as relações etnorracias e história e cultura afro-brasileira e africana;"0 - Não
+1 - Sim"
+IN_ESPECIFICO_GESTAO;Outros cursos - Formação Continuada com no mínimo 80 horas - Gestão escolar;"0 - Não
+1 - Sim"
+IN_ESPECIFICO_OUTROS;Outros cursos - Formação Continuada com no mínimo 80 horas - Outros;"0 - Não
+1 - Sim"
+IN_ESPECIFICO_NENHUM;Outros cursos - Formação Continuada com no mínimo 80 horas - Nenhum;"0 - Não
+1 - Sim"
+TP_CARGO_GESTOR;Cargo do gestor escolar;"1 - Diretor(a)
+2 - Outro Cargo"
+TP_TIPO_ACESSO_CARGO;Critério de acesso ao cargo/função;"1 - Ser proprietário ou sócio-proprietário da escola (apenas escolas privadas)
+2 - Exclusivamente por indicação/escolha da gestão (escolas públicas e privadas)
+3 - Processo seletivo qualificado e escolha/nomeação da gestão (escolas públicas e privadas)
+4 - Concurso público específico para o cargo de gestor escolar (apenas escolas públicas)
+5 - Exclusivamente por processo eleitoral com participação da comunidade escolar (apenas escolas públicas)
+6 - Processo seletivo qualificado e eleição com participação da comunidade escolar (apenas escola pública)
+7 - Outro (escolas públicas e privadas)
+ - Não aplicável quando TP_CARGO_GESTOR igual a 2"
+TP_TIPO_CONTRATACAO;Situação Funcional/Regime de contratação/Tipo de Vínculo;"1 - Concursado/efetivo/estável
+2 - Contrato temporário
+3 - Contrato terceirizado
+4 - Contrato CLT
+   - Não aplicável para não docentes e escolas privadas"
+CO_ENTIDADE;Código da Escola;NA
+CO_REGIAO;Código da região geográfica;NA
+CO_MESORREGIAO;Código da mesorregião;NA
+CO_MICRORREGIAO;Código da microrregião;NA
+CO_UF;Código da UF da escola;NA
+CO_MUNICIPIO;Código do Município da escola;NA
+CO_DISTRITO;Código completo do Distrito da escola;NA
+TP_DEPENDENCIA;Dependência Administrativa (Escola);"1 - Federal
+2 - Estadual
+3 - Municipal
+4 - Privada"
+TP_LOCALIZACAO;Localização (Escola);"1 - Urbana
+2 - Rural"
+TP_CATEGORIA_ESCOLA_PRIVADA;Categoria da escola privada;"1 - Particular
+2 - Comunitária
+3 - Confessional
+4 - Filantrópica
+   - Não aplicável para escolas públicas"
+IN_CONVENIADA_PP;Conveniada com o poder público (Escola);"0 - Não tem convênio
+1 - Sim
+   - Não aplicável para escolas públicas"
+TP_CONVENIO_PODER_PUBLICO;Dependência do convênio com o poder público;"1 - Municipal
+2 - Estadual
+3 - Estadual e Municipal
+   - Não aplicável para escolas públicas ou sem convênio"
+IN_MANT_ESCOLA_PRIVADA_EMP;Mantenedora da escola privada - Empresa ou grupo empresarial do setor privado ou pessoa física;"0 - Não
+1 - Sim
+9 - Não informado
+   - Não aplicável para escolas públicas"
+IN_MANT_ESCOLA_PRIVADA_ONG;Mantenedora da escola privada - Organização não governamental (ONG) - internacional ou nacional.;"0 - Não
+1 - Sim
+9 - Não informado
+   - Não aplicável para escolas públicas"
+IN_MANT_ESCOLA_PRIVADA_OSCIP;Mantenedora da escola privada - Organização da Sociedade Civil de Interesse Público (Oscip);"0 - Não
+1 - Sim
+9 - Não informado
+   - Não aplicável para escolas públicas"
+IN_MANT_ESCOLA_PRIV_ONG_OSCIP;Mantenedora da escola privada - Organização não governamental (ONG) - internacional ou nacional. Organização da Sociedade Civil de Interesse Público (Oscip);"0 - Não
+1 - Sim
+9 - Não informado
+   - Não aplicável para escolas públicas"
+IN_MANT_ESCOLA_PRIVADA_SIND;Mantenedora da escola privada - Sindicatos de trabalhadores ou patronais, associações e cooperativas;"0 - Não
+1 - Sim
+9 - Não informado
+   - Não aplicável para escolas públicas"
+IN_MANT_ESCOLA_PRIVADA_SIST_S;Mantenedora da escola privada - Sistema S (Sesi, Senai, Sesc, Outros);"0 - Não
+1 - Sim
+9 - Não informado
+   - Não aplicável para escolas públicas"
+IN_MANT_ESCOLA_PRIVADA_S_FINS;Mantenedora da escola privada - Instituições sem fins lucrativos;"0 - Não
+1 - Sim
+9 - Não informado
+   - Não aplicável para escolas públicas"
+TP_REGULAMENTACAO;Regulamentação/Autorização no conselho ou órgão municipal, estadual ou federal de educação;"0 - Não
+1 - Sim
+2 - Em tramitação
+- Não dispõe da informação para escolas que não fecharam o censo"
+TP_LOCALIZACAO_DIFERENCIADA;Localização diferenciada da escola;"0 - A escola não está em área de localização diferenciada
+1 - Área de assentamento
+2 - Terra indígena
+3 -  Área onde se localiza comunidade remanescente de quilombos"
+IN_EDUCACAO_INDIGENA;Educação Escolar Indígena;"0 - Não
+1 - Sim"

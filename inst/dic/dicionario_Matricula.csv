@@ -1,0 +1,370 @@
+nome;descricao;categoria
+NU_ANO_CENSO;Ano do Censo;NA
+ID_ALUNO;Código do aluno (ID_INEP);NA
+ID_MATRICULA;Código único da matrícula;NA
+NU_DIA;Data de nascimento do aluno - dia;NA
+NU_MES;Data de nascimento do aluno - mês;NA
+NU_ANO;Data de nascimento do aluno - ano;NA
+NU_IDADE_REFERENCIA;Idade do aluno no mês de referência do Censo Escolar (31 de maio);NA
+NU_IDADE;Idade calculada pelo ano de nascimento do aluno;NA
+TP_SEXO;Sexo;"1 - Masculino
+2 - Feminino"
+TP_COR_RACA;Cor/raça;"0 - Não declarada
+1 - Branca
+2 - Preta
+3 - Parda
+4 - Amarela
+5 - Indígena"
+TP_NACIONALIDADE;Nacionalidade;"1 - Brasileira
+2 - Brasileira (nascido no exterior ou naturalizado)
+3 - Estrangeira"
+CO_PAIS_ORIGEM;Código País da nacionalidade;"Ver Anexo 4
+ - Não aplicável para alunos de nacionalidade brasileira ou brasileira nascido no exterior ou naturalizado"
+CO_UF_NASC;Código UF de nascimento;- Não aplicável para alunos de nacionalidade estrangeira
+CO_MUNICIPIO_NASC;Código Município de nascimento;- Não aplicável para alunos de nacionalidade estrangeira
+CO_PAIS_RESIDENCIA;Código País de residência2;Ver Anexo 4
+CO_UF_END;Código UF de residência;- Não aplicável para alunos residentes no exterior
+CO_MUNICIPIO_END;Código Município de residência;- Não aplicável para alunos residentes no exterior
+TP_ZONA_RESIDENCIAL;Localização/Zona de residência;"1 - Urbana
+2 - Rural
+    - Não aplicável para alunos residentes no exterior"
+TP_LOCAL_RESID_DIFERENCIADA;Localização diferenciada da residência;"0 - Não reside em área de localização diferenciada  
+1 - Área onde se localiza comunidade remanescente de quilombos
+2 - Terra indígena 
+3 - Área de assentamento"
+IN_NECESSIDADE_ESPECIAL;Aluno (a) com deficiência, transtorno do espectro autista ou altas habilidades/superdotação;"0 - Não
+1 - Sim"
+IN_BAIXA_VISAO;Tipo de deficiência, transtorno do espectro autista ou altas habilidades/superdotação - Baixa visão;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_CEGUEIRA;Tipo de deficiência, transtorno do espectro autista ou altas habilidades/superdotação - Cegueira;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_DEF_AUDITIVA;Tipo de deficiência, transtorno do espectro autista ou altas habilidades/superdotação (deficiência auditiva);"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_DEF_FISICA;Tipo de deficiência, transtorno do espectro autista ou altas habilidades/superdotação - Deficiência física;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_DEF_INTELECTUAL;Tipo de deficiência, transtorno do espectro autista ou altas habilidades/superdotação - Deficiência intelectual;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_SURDEZ;Tipo de deficiência, transtorno do espectro autista ou altas habilidades/superdotação - Surdez;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_SURDOCEGUEIRA;Tipo de deficiência, transtorno do espectro autista ou altas habilidades/superdotação - Surdocegueira;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_DEF_MULTIPLA;Tipo de deficiência, transtorno do espectro autista ou altas habilidades/superdotação - Deficiência múltipla;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_AUTISMO;Tipo de deficiência, transtorno do espectro autista ou altas habilidades/superdotação - Transtorno do Espectro Autista;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_SINDROME_ASPERGER;Tipo de deficiência, transtorno global do desenvolvimento ou altas habilidades/superdotação (Síndrome de Asperger);"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_SINDROME_RETT;Tipo de deficiência, transtorno global do desenvolvimento ou altas habilidades/superdotação (Síndrome de Rett);"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_TRANSTORNO_DI;Tipo de deficiência, transtorno global do desenvolvimento ou altas habilidades/superdotação (Transtorno desintegrativo da infância);"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_SUPERDOTACAO;Tipo de deficiência, transtorno do espectro autista ou altas habilidades/superdotação - Altas habilidades/superdotação;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_RECURSO_LEDOR;Recursos necessários para uso do(a) aluno(a) e para a participação em avaliações do Inep (Saeb) - Auxílio Ledor;"0 - Não
+1 - Sim
+9 - Não informado
+    - Não aplicável para alunos sem deficiência"
+IN_RECURSO_TRANSCRICAO;Recursos necessários para uso do(a) aluno(a) e para a participação em avaliações do Inep (Saeb) - Auxílio Transcrição;"0 - Não
+1 - Sim
+9 - Não informado
+    - Não aplicável para alunos sem deficiência"
+IN_RECURSO_INTERPRETE;Recursos necessários para uso do(a) aluno(a) e para a participação em avaliações do Inep (Saeb) - Guia-Intérprete;"0 - Não
+1 - Sim
+9 - Não informado
+    - Não aplicável para alunos sem deficiência"
+IN_RECURSO_LIBRAS;Recursos necessários para uso do(a) aluno(a) e para a participação em avaliações do Inep (Saeb) - Tradutor e Intérprete de Libras;"0 - Não
+1 - Sim
+9 - Não informado
+    - Não aplicável para alunos sem deficiência"
+IN_RECURSO_LABIAL;Recursos necessários para uso do(a) aluno(a) e para a participação em avaliações do Inep (Saeb) - Leitura Labial;"0 - Não
+1 - Sim
+9 - Não informado
+    - Não aplicável para alunos sem deficiência"
+IN_RECURSO_AMPLIADA_18;Recursos necessários para uso do(a) aluno(a) e para a participação em avaliações do Inep (Saeb) - Prova Ampliada (Fonte tamanho 18);"0 - Não
+1 - Sim
+9 - Não informado
+    - Não aplicável para alunos sem deficiência"
+IN_RECURSO_AMPLIADA_16;Recursos necessários para uso do(a) aluno(a) e para a participação em avaliações do Inep (Saeb) - Prova Ampliada (Fonte tamanho 16);"0 - Não
+1 - Sim"
+IN_RECURSO_AMPLIADA_20;Recursos necessários para uso do(a) aluno(a) e para a participação em avaliações do Inep (Saeb) - Prova Ampliada (Fonte tamanho 20);"0 - Não
+1 - Sim"
+IN_RECURSO_AMPLIADA_24;Recursos necessários para uso do(a) aluno(a) e para a participação em avaliações do Inep (Saeb) - Prova superampliada (Fonte tamanho 24);"0 - Não
+1 - Sim
+9 - Não informado
+    - Não aplicável para alunos sem deficiência"
+IN_RECURSO_CD_AUDIO;Recursos necessários para uso do(a) aluno(a) e para a participação em avaliações do Inep (Saeb) - CD com áudio para deficiente visual;"0 - Não
+1 - Sim
+9 - Não informado
+    - Não aplicável para alunos sem deficiência"
+IN_RECURSO_PROVA_PORTUGUES;Recursos necessários para uso do(a) aluno(a) e para a participação em avaliações do Inep (Saeb) - Prova de Língua Portuguesa como segunda língua para surdos e deficientes auditivos;"0 - Não
+1 - Sim
+9 - Não informado
+    - Não aplicável para alunos sem deficiência"
+IN_RECURSO_VIDEO_LIBRAS;Recursos necessários para uso do(a) aluno(a) e para a participação em avaliações do Inep (Saeb) - Prova em vídeo Libras;"0 - Não
+1 - Sim
+9 - Não informado
+    - Não aplicável para alunos sem deficiência"
+IN_RECURSO_BRAILLE;Recursos necessários para uso do(a) aluno(a) e para a participação em avaliações do Inep (Saeb) - Material didático e Prova em Braille;"0 - Não
+1 - Sim
+9 - Não informado
+    - Não aplicável para alunos sem deficiência"
+IN_RECURSO_NENHUM;Recursos necessários para uso do(a) aluno(a) e para a participação em avaliações do Inep (Saeb) - Nenhum;"0 - Não
+1 - Sim
+9 - Não informado
+    - Não aplicável para alunos sem deficiência"
+IN_AEE_LIBRAS;Tipo de Atendimento Educacional Especializado (AEE) - Ensino da Língua Brasileira de Sinais - LIBRAS;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_AEE_LINGUA_PORTUGUESA;Tipo de Atendimento Educacional Especializado (AEE) - Ensino da Língua Portuguesa como segunda língua;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_AEE_INFORMATICA_ACESSIVEL;Tipo de Atendimento Educacional Especializado (AEE) - Ensino da informática acessível;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_AEE_BRAILLE;Tipo de Atendimento Educacional Especializado (AEE) - Ensino do Sistema Braille;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_AEE_CAA;Tipo de Atendimento Educacional Especializado (AEE) - Ensino do uso da Comunicação Alternativa e Aumentativa (CAA);"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_AEE_SOROBAN;Tipo de Atendimento Educacional Especializado (AEE) - Ensino das técnicas do cálculo no Soroban;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_AEE_VIDA_AUTONOMA;Tipo de Atendimento Educacional Especializado (AEE) - Desenvolvimento de vida autônoma;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_AEE_OPTICOS_NAO_OPTICOS;Tipo de Atendimento Educacional Especializado (AEE) - Ensino do uso de recursos ópticos e não ópticos;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_AEE_ENRIQ_CURRICULAR;Tipo de Atendimento Educacional Especializado (AEE) - Enriquecimento curricular;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_AEE_DESEN_COGNITIVO;Tipo de Atendimento Educacional Especializado (AEE) - Desenvolvimento de funções cognitivas;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+IN_AEE_MOBILIDADE;Tipo de Atendimento Educacional Especializado (AEE) - Ensino de técnicas para orientação e mobilidade;"0 - Não
+1 - Sim
+    - Não aplicável para alunos sem deficiência"
+TP_OUTRO_LOCAL_AULA;Recebe escolarização em outro local (diferente da escola);"1 - Em hospital
+2 - Em domicílio
+3 - Não recebe escolarização fora da escola"
+IN_TRANSPORTE_PUBLICO;Transporte escolar público;"0 - Não utiliza
+1 - Utiliza
+    - Não aplicável para alunos em turmas de EAD"
+TP_RESPONSAVEL_TRANSPORTE;Poder público responsável pelo transporte escolar;"1 - Estadual
+2 - Municipal
+    - Não aplicável para alunos em turmas de EAD"
+IN_TRANSP_BICICLETA;Tipo de veículo utilizado no transporte escolar público - Rodoviário (Bicicleta);"0 - Não utiliza
+1 - Utiliza
+    - Não aplicável para alunos que não utilizam transporte público"
+IN_TRANSP_MICRO_ONIBUS;Tipo de veículo utilizado no transporte escolar público - Rodoviário (Micro-ônibus);"0 - Não utiliza
+1 - Utiliza
+    - Não aplicável para alunos que não utilizam transporte público"
+IN_TRANSP_ONIBUS;Tipo de veículo utilizado no transporte escolar público - Rodoviário (Ônibus);"0 - Não utiliza
+1 - Utiliza
+    - Não aplicável para alunos que não utilizam transporte público"
+IN_TRANSP_TR_ANIMAL;Tipo de veículo utilizado no transporte escolar público - Rodoviário (Tração Animal);"0 - Não utiliza
+1 - Utiliza
+    - Não aplicável para alunos que não utilizam transporte público"
+IN_TRANSP_VANS_KOMBI;Tipo de veículo utilizado no transporte escolar público - Rodoviário (Vans/Kombi);"0 - Não utiliza
+1 - Utiliza
+    - Não aplicável para alunos que não utilizam transporte público"
+IN_TRANSP_OUTRO_VEICULO;Tipo de veículo utilizado no transporte escolar público - Rodoviário (Outro tipo de veículo rodoviário);"0 - Não utiliza
+1 - Utiliza
+    - Não aplicável para alunos que não utilizam transporte público"
+IN_TRANSP_EMBAR_ATE5;Tipo de veículo utilizado no transporte escolar público - Aquaviário/Embarcação (Capacidade de até 5 alunos);"0 - Não utiliza
+1 - Utiliza
+    - Não aplicável para alunos que não utilizam transporte público"
+IN_TRANSP_EMBAR_5A15;Tipo de veículo utilizado no transporte escolar público - Aquaviário/Embarcação (Capacidade de 5 a 15 alunos);"0 - Não utiliza
+1 - Utiliza
+    - Não aplicável para alunos que não utilizam transporte público"
+IN_TRANSP_EMBAR_15A35;Tipo de veículo utilizado no transporte escolar público - Aquaviário/Embarcação (Capacidade de 15 a 35 alunos);"0 - Não utiliza
+1 - Utiliza
+    - Não aplicável para alunos que não utilizam transporte público"
+IN_TRANSP_EMBAR_35;Tipo de veículo utilizado no transporte escolar público - Aquaviário/Embarcação (Capacidade acima de 35 alunos);"0 - Não utiliza
+1 - Utiliza
+    - Não aplicável para alunos que não utilizam transporte público"
+IN_TRANSP_TREM_METRO;Tipo de veículo utilizado no transporte escolar Ferroviário (Trem/Metrô);"0 - Não utiliza
+1 - Utiliza"
+TP_INGRESSO_FEDERAIS;Forma de ingresso do aluno (apenas alunos de escolas federais das Etapas: Educação Profissional (39 e 40), Ensino Médio Integrado (30, 31, 32, 33 e 34) e EJA integrada à Educação Profissional de Nível Médio (73);"1 - Sem processo seletivo
+2 - Sorteio
+3 - Transferência
+4 - Exame de seleção sem reserva de vaga
+5 - Exame de seleção, vaga reservada para alunos da rede pública de ensino
+6 - Exame de seleção, vaga reservada para alunos da rede pública de ensino, com baixa renda e autodeclarado preto, pardo ou indígena
+7 - Exame de seleção, vaga reservada para outros programas de ação afirmativa
+8 - Outra forma de ingresso
+9 - Exame de seleção, vaga reservada para alunos da rede pública de ensino, com baixa renda"
+TP_ETAPA_ENSINO;Etapa de ensino da turma;"1 - Educação Infantil – Creche
+2 - Educação Infantil - Pré-escola
+3 - Educação Infantil - Unificada
+56 - Educação Infantil e Ensino Fundamental (9 anos) Multietapa
+4 - Ensino Fundamental de 8 anos - 1ª Série
+5 - Ensino Fundamental de 8 anos - 2ª Série
+6 - Ensino Fundamental de 8 anos - 3ª Série
+7 - Ensino Fundamental de 8 anos - 4ª Série
+8 - Ensino Fundamental de 8 anos - 5ª Série
+9 - Ensino Fundamental de 8 anos - 6ª Série
+10 - Ensino Fundamental de 8 anos - 7ª Série
+11 - Ensino Fundamental de 8 anos - 8ª Série
+12 - Ensino Fundamental de 8 anos - Multi
+13 - Ensino Fundamental de 8 anos - Correção de Fluxo
+14 - Ensino Fundamental de 9 anos - 1º Ano
+15 - Ensino Fundamental de 9 anos - 2º Ano
+16 - Ensino Fundamental de 9 anos - 3º Ano
+17 - Ensino Fundamental de 9 anos - 4º Ano
+18 - Ensino Fundamental de 9 anos - 5º Ano
+19 - Ensino Fundamental de 9 anos - 6º Ano
+20 - Ensino Fundamental de 9 anos - 7º Ano
+21 - Ensino Fundamental de 9 anos - 8º Ano
+41 - Ensino Fundamental de 9 anos - 9º Ano
+22 - Ensino Fundamental de 9 anos - Multi
+23 - Ensino Fundamental de 9 anos - Correção de Fluxo
+24 - Ensino Fundamental de 8 e 9 anos - Multi 8 e 9 anos
+25 - Ensino Médio - 1º ano/1ª Série
+26 - Ensino Médio - 2º ano/2ª Série
+27 - Ensino Médio - 3ºano/3ª Série
+28 - Ensino Médio - 4º ano/4ª Série
+29 - Ensino Médio - Não Seriada
+30 - Curso Técnico Integrado (Ensino Médio Integrado) 1ª Série
+31 - Curso Técnico Integrado (Ensino Médio Integrado) 2ª Série
+32 - Curso Técnico Integrado (Ensino Médio Integrado) 3ª Série
+33 - Curso Técnico Integrado (Ensino Médio Integrado) 4ª Série
+34 - Curso Técnico Integrado (Ensino Médio Integrado) Não Seriada
+35 - Ensino Médio - Modalidade Normal/Magistério 1ª Série
+36 - Ensino Médio - Modalidade Normal/Magistério 2ª Série
+37 - Ensino Médio - Modalidade Normal/Magistério 3ª Série
+38 - Ensino Médio - Modalidade Normal/Magistério 4ª Série
+39 - Curso Técnico - Concomitante
+40 - Curso Técnico - Subsequente
+64 - Curso Técnico Misto (Concomitante e Subsequente)
+65 - EJA - Ensino Fundamental - Projovem Urbano
+67 - Curso FIC integrado na modalidade EJA - Nível Médio
+68 - Curso FIC Concomitante 
+69 - EJA - Ensino Fundamental - Anos Iniciais
+70 - EJA - Ensino Fundamental - Anos Finais
+71 - EJA - Ensino Médio
+72 - EJA - Ensino Fundamental - Anos Iniciais e Anos Finais
+73 - Curso FIC integrado na modalidade EJA - Nível Fundamental (EJA integrada à Educação Profissional de Nível Fundamental) 
+74 - Curso Técnico Integrado na Modalidade EJA (EJA integrada à Educação Profissional de Nível Médio)
+- Não aplicável para turmas exclusivas de atendimento educacional especializado (AEE) e exclusivas de atividade complementar"
+IN_ESPECIAL_EXCLUSIVA;Aluno de turma exclusiva de alunos com deficiência, transtorno do espectro autista ou altas habilidades/superdotação (Classes Especiais);"0 - Não
+1 - Sim                                            
+- Não aplicável para turmas de atendimento educacional especializado (AEE) e atividade complementar"
+IN_REGULAR;Modo, maneira ou metodologia de ensino correspondente às turmas com etapas de escolarização consecutivas, Creche ao Ensino Médio. Etapas consideradas (nas antigas modalidades 1 ou 2): TP_ETAPA_ENSINO igual a 1,2,4,5,6,7,8,9,10,11,14, 15,16,17,18,19,20,21,41,25,26,27,28,29,30,31, 32,33,34,35,36,37 ou 38.;"0 - Não
+1 - Sim  
+- Não aplicável para turmas de atendimento educacional especializado (AEE) e atividade complementar"
+IN_EJA;Modo, maneira ou metodologia de ensino correspondente às turmas destinadas a pessoas que não cursaram o ensino fundamental e/ou médio em idade própria. Etapas consideradas (nas antigas modalidades 2 ou 3): TP_ETAPA_ENSINO igual a 65,67,69,70,71,73 ou 74.;"0 - Não
+1 - Sim  
+- Não aplicável para turmas de atendimento educacional especializado (AEE) e atividade complementar"
+IN_PROFISSIONALIZANTE;"Modo profissionalizante de ensino correspondente às turmas de cursos de formação inicial e continuada ou de qualificação profissional (Cursos FIC) articulados à EJA ou concomitantes; ou de cursos técnicos de nível médio nas formas articulada (integrada ou concomitante) ou subsequente ao ensino médio e de normal/magistério. Etapas consideradas (nas antigas modalidades 1, 2 ou 3): TP_ETAPA_ENSINO igual a 30,31,32,33,34, 35,36,37,38,39,40,65,67,68,73 ou 74.";"0 - Não
+1 - Sim  
+- Não aplicável para turmas de atendimento educacional especializado (AEE) e atividade complementar"
+ID_TURMA;Código único da Turma;NA
+CO_CURSO_EDUC_PROFISSIONAL;Curso da Educação Profissional Técnica (Apenas etapas: 30,31,32,33,34,74,39, e 40;Ver Anexo 2 - Cursos da Educação Profissional Técnica
+TP_MEDIACAO_DIDATICO_PEDAGO;Tipo de mediação didático-pedagógica;"1 - Presencial
+2 - Semipresencial
+3 - Educação a Distância: EAD"
+NU_DURACAO_TURMA;Tempo de permanência na turma da matrícula do aluno - minutos;- Não aplicável para alunos em turmas de EAD
+NU_DUR_ATIV_COMP_MESMA_REDE;Tempo de permanência (em minutos) na turma de atividade complementar na mesma rede da turma de escolarização 3,4;- Não aplicável para alunos em turmas de EAD
+NU_DUR_ATIV_COMP_OUTRAS_REDES;Tempo de permanência (em minutos) na turma de atividade complementar em outras redes 3,4;- Não aplicável para alunos em turmas de EAD
+NU_DUR_AEE_MESMA_REDE;Tempo de permanência (em minutos) na turma de atendimento educacional especializado (AEE) na mesma rede da turma de escolarização 3,4;- Não aplicável para alunos em turmas de EAD
+NU_DUR_AEE_OUTRAS_REDES;Tempo de permanência (em minutos) na turma de atendimento educacional especializado (AEE) em outras redes 3.4;- Não aplicável para alunos em turmas de EAD
+NU_DIAS_ATIVIDADE;Número de dias por semana em que são realizadas as atividades da turma;"1 - Uma vez por semana
+2 - Duas vezes por semana
+3 - Três vezes por semana
+4 - Quatro vezes por semana
+5 - Cinco vezes por semana
+6 - Seis vezes por semana
+7 - Sete vezes por semana
+   - Não aplicável para alunos em turmas de EAD"
+TP_UNIFICADA;Unificada, multietapa, multi ou correção de fluxo;"0 - Não
+1 - Unificada
+2 - Multietapa
+3 - Multi
+4 - Correção de fluxo
+5 - Mista (Concomitante e Subsequente)"
+TP_TIPO_TURMA;Tipo de atendimento;"0 - Não se aplica
+1 - Classe hospitalar
+2 - Unidade de atendimento socioeducativo
+3 - Unidade prisional
+4 - Atividade complementar
+5 - Atendimento Educacional Especializado (AEE)"
+TP_TIPO_ATENDIMENTO_TURMA;Tipo de atendimento;"1 - Exclusivo Escolarização
+2 - Atividade complementar e escolarização
+3 - Atividade complementar
+4 - Atendimento Educacional Especializado (AEE)"
+TP_TIPO_LOCAL_TURMA;Local de funcionamento diferenciado da turma;"0 - A turma não está em local de funcionamento diferenciado
+1 - Sala anexa
+2 - Unidade de atendimento socioeducativo
+3 - Unidade prisional"
+DADOS DA ESCOLA;NA;NA
+CO_ENTIDADE;Código da Escola;NA
+CO_REGIAO;Código da região geográfica;NA
+CO_MESORREGIAO;Código da mesorregião;NA
+CO_MICRORREGIAO;Código da microrregião;NA
+CO_UF;Código UF da escola;NA
+CO_MUNICIPIO;Código Município da escola;NA
+CO_DISTRITO;Código completo do Distrito da escola;NA
+TP_DEPENDENCIA;Dependência Administrativa (Escola);"1 - Federal
+2 - Estadual
+3 - Municipal
+4 - Privada"
+TP_LOCALIZACAO;Localização (Escola);"1 - Urbana
+2 - Rural"
+TP_CATEGORIA_ESCOLA_PRIVADA;Categoria da escola privada;"1 - Particular
+2 - Comunitária
+3 - Confessional
+4 - Filantrópica
+   - Não aplicável para escolas públicas"
+IN_CONVENIADA_PP;Conveniada com o poder público (Escola);"0 - Não tem convênio
+1 - Sim
+   - Não aplicável para escolas públicas"
+TP_CONVENIO_PODER_PUBLICO;Dependência do convênio com o poder público;"1 - Municipal
+2 - Estadual
+3 - Estadual e Municipal
+    - Não aplicável para escolas públicas ou sem convênio"
+IN_MANT_ESCOLA_PRIVADA_EMP;Mantenedora da escola privada - Empresa ou grupo empresarial do setor privado ou pessoa física;"0 - Não
+1 - Sim
+   - Não aplicável para escolas públicas"
+IN_MANT_ESCOLA_PRIVADA_ONG;Mantenedora da escola privada - Organização não governamental (ONG) - internacional ou nacional.;"0 - Não
+1 - Sim
+   - Não aplicável para escolas públicas"
+IN_MANT_ESCOLA_PRIVADA_OSCIP;Mantenedora da escola privada - Organização da Sociedade Civil de Interesse Público (Oscip);"0 - Não
+1 - Sim
+   - Não aplicável para escolas públicas"
+IN_MANT_ESCOLA_PRIV_ONG_OSCIP;"Mantenedora da escola privada - Organização não governamental (ONG) - internacional ou nacional.
+Organização da Sociedade Civil de Interesse Público (Oscip)";"0 - Não
+1 - Sim
+   - Não aplicável para escolas públicas"
+IN_MANT_ESCOLA_PRIVADA_SIND;Mantenedora da escola privada - Sindicatos de trabalhadores ou patronais, associações e cooperativas;"0 - Não
+1 - Sim
+   - Não aplicável para escolas públicas"
+IN_MANT_ESCOLA_PRIVADA_SIST_S;Mantenedora da escola privada - Sistema S (Sesi, Senai, Sesc, Outros);"0 - Não
+1 - Sim
+   - Não aplicável para escolas públicas"
+IN_MANT_ESCOLA_PRIVADA_S_FINS;Mantenedora da escola privada - Instituições sem fins lucrativos;"0 - Não
+1 - Sim
+   - Não aplicável para escolas públicas"
+TP_REGULAMENTACAO;Regulamentação/Autorização no conselho ou órgão municipal, estadual ou federal de educação;"0 - Não
+1 - Sim
+2 - Em tramitação"
+TP_LOCALIZACAO_DIFERENCIADA;Localização diferenciada da escola;"0 - A escola não está em área de localização diferenciada
+1 - Área de assentamento
+2 - Terra indígena
+3 - Área onde se localiza comunidade remanescente de quilombos"
+IN_EDUCACAO_INDIGENA;Educação Escolar Indígena;"0 - Não
+1 - Sim"
