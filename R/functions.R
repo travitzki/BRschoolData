@@ -100,7 +100,6 @@ import_csv2rda=function(file_path_origin, file_path_destiny)
 insert_labels=function(file_path_origin, file_path_destiny,
                        data_level=c('Escola','Docente','Gestor','Turma','Matricula'), add_variables=TRUE)
 {
-
   # carregar dados desse nivel para recodificar
   load(system.file("recodes", paste0('dados-recode_',data_level,'.rda'), package = 'BRschoolData'))
   dd <- as.data.frame(dd) # declarar pra nao dar warning no pacote
