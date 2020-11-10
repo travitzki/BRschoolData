@@ -42,10 +42,10 @@ download_microdata<-function(year=2019, method =  "wget")
 #'
 #' @examples
 #' \dontrun{
-#' file.original='~/YOUR_PATH/downloaded_data/ESCOLA.CSV'
+#' file.downloaded='~/YOUR_PATH/downloaded_data/ESCOLA.CSV'
 #' file.imported='~/YOUR_PATH/temp_data.rda'
 #'
-#' import_csv2rda(file_path_origin=file.original,
+#' import_csv2rda(file_path_origin=file.downloaded,
 #'               file_path_destiny=file.imported)}
 #'
 #' # for a more complete view, see ?insert_labels
@@ -86,11 +86,11 @@ import_csv2rda=function(file_path_origin, file_path_destiny)
 #' # note that 'data_level' must also be defined, in function insert_labels()
 #'
 #' \dontrun{
-#' file.original='~/YOUR_PATH/downloaded_data/ESCOLA.CSV'
+#' file.downloaded='~/YOUR_PATH/downloaded_data/ESCOLA.CSV'
 #' file.imported='~/YOUR_PATH/temp_data.rda'
 #' file.labelled='~/YOUR_PATH/censusData_ESCOLA.rda'
 #'
-#' import_csv2rda(file_path_origin=file.original,
+#' import_csv2rda(file_path_origin=file.downloaded,
 #'               file_path_destiny=file.imported)
 #'
 #' insert_labels (file_path_origin=file.imported,
