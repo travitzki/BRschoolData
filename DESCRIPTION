@@ -1,6 +1,6 @@
 Package: BRschoolData
 Title: Import and label Brazilian school Census data
-Version: 0.1
+Version: 0.11
 Authors@R: 
     person(given = "Rodrigo",
            family = "Travitzki",

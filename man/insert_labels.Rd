@@ -30,17 +30,17 @@ The dictionary used to label is from 2019 data
 Works fine with 2019 data, and at least partially with 2015 data. Other years not tested yet.
 }
 \examples{
-# you must firt download the .zip file. See ?download_microdata
+# you must first download the .zip file. See ?download_microdata
 # then you must unzip it and choose a data file (eg. ESCOLA.CSV)
 # then you can run the code below, changing the first 3 lines as you wish
 # note that 'data_level' must also be defined, in function insert_labels()
 
 \dontrun{
-file.original='~/YOUR_PATH/downloaded_data/ESCOLA.CSV'
+file.downloaded='~/YOUR_PATH/downloaded_data/ESCOLA.CSV'
 file.imported='~/YOUR_PATH/temp_data.rda'
 file.labelled='~/YOUR_PATH/censusData_ESCOLA.rda'
 
-import_csv2rda(file_path_origin=file.original,
+import_csv2rda(file_path_origin=file.downloaded,
               file_path_destiny=file.imported)
 
 insert_labels (file_path_origin=file.imported,

@@ -80,7 +80,7 @@ import_csv2rda=function(file_path_origin, file_path_destiny)
 #' @export
 #'
 #' @examples
-#' # you must firt download the .zip file. See ?download_microdata
+#' # you must first download the .zip file. See ?download_microdata
 #' # then you must unzip it and choose a data file (eg. ESCOLA.CSV)
 #' # then you can run the code below, changing the first 3 lines as you wish
 #' # note that 'data_level' must also be defined, in function insert_labels()

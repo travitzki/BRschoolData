@@ -19,10 +19,10 @@ Import csv microdata to R, optimizing for big data (student and teacher levels)
 }
 \examples{
 \dontrun{
-file.original='~/YOUR_PATH/downloaded_data/ESCOLA.CSV'
+file.downloaded='~/YOUR_PATH/downloaded_data/ESCOLA.CSV'
 file.imported='~/YOUR_PATH/temp_data.rda'
 
-import_csv2rda(file_path_origin=file.original,
+import_csv2rda(file_path_origin=file.downloaded,
               file_path_destiny=file.imported)}
 
 # for a more complete view, see ?insert_labels
