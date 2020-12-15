@@ -13,7 +13,7 @@ Até o momento, foi testado para todas as tabelas do Censo Escolar de 2019, mas 
 
 Os microdados precisam ser baixados e descompactados. Veja a função auxiliar (download_microdata) ou vá direto no site: http://inep.gov.br/microdados 
 
-Há uma função (import_csv2rda) para importar os dados para o R, especialmente importante para as bases maiores (professores e matriculas).
+Há uma função (import_csv2rda) para importar os dados para o R, especialmente importante para as bases maiores (professores e matrículas).
 
 Outra função (insert_labels) troca a codificação original dos microdados para rótulos compreensíveis (segundo o dicionário), e também cria algumas variáveis adicionais por padrão (default).
 
