@@ -5,7 +5,7 @@ Authors@R:
     person(given = "Rodrigo",
            family = "Travitzki",
            role = c("aut", "cre"),
-           email = "r.travitzki gmail.com",
+           email = "r.travitzki@gmail.com",
            comment = c(ORCID = "0000-0002-0107-682X"))
 Description: Helps to handle Brazilian educational microdata, importing and adding portuguese labels to categoric variables (factors). It also optimizes for big data, important in some data files. Labeling function was full tested with 2019 data, but should work with 2015-2019 data, at least partially. Import funcion works with 2013-2019 census microdata.
 License:  GPL-2 
