@@ -1,4 +1,4 @@
-## censoescolaR: pacote R para importar e rotular os microdados do Censo Escolar
+# censoescolaR: pacote R para importar e rotular os microdados do Censo Escolar
 
 O próposito deste pacote é contribuir para a política de dados abertos, facilitando o acesso a bases detalhadas sobre educação disponibilizadas pelo INEP (Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira). Qualquer colaboração nesse sentido será muito bem vinda!
 
@@ -25,6 +25,7 @@ install_github("travitzki/censoescolaR")
 ## Como obter dados mais antigos do Censo Escolar?
 
 Uma fonte para vários microdados do Brasil (incluindo o Censo Escolar de 1995 a 2014) é o pacote microdadosBrasil (https://github.com/lucasmation/microdadosBrasil). Não testei mas parece bom.
+
 
 
 # English main view
