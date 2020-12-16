@@ -1,7 +1,10 @@
-# BRschoolData
+# censoescolaR
 Helps to import and label (in portuguese) Brazilian school microdata
 
 For now works like a charm only with 2019 data.
+
+More info:
+?insert_labels
 
 ## Pacote R para importar e rotular os microdados do Censo Escolar
 
@@ -21,3 +24,8 @@ Mais informações:
 
 ?insert_labels
 
+## Como instalar
+
+library(devtools)
+
+install_github("travitzki/censoescolaR")
