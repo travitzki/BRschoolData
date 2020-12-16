@@ -18,7 +18,7 @@ Os microdados precisam ser baixados e descompactados. Veja a função auxiliar (
 
 Há uma função (import_csv2rda) para importar os dados para o R, especialmente importante para as bases maiores (professores e matrículas).
 
-Outra função (insert_labels) troca a codificação original dos microdados para rótulos compreensíveis (segundo o dicionário), e também cria algumas variáveis adicionais por padrão (default).
+Outra função (insert_labels) troca a codificação original dos microdados para rótulos compreensíveis (segundo o dicionário), e também cria algumas variáveis adicionais (opção padrão que pode ser desativada).
 
 Mais informações:
 
