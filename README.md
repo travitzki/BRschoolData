@@ -28,7 +28,7 @@ Uma fonte para vários microdados do Brasil (incluindo o Censo Escolar de 1995 a
 
 
 # English main view
-Helps to import and label (in portuguese) Brazilian school microdata
+This R package helps to import and label (in portuguese) Brazilian school microdata
 
 For now works like a charm only with 2019 data.
 
